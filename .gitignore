@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+node_modules/
+backend/storage/uploads/*
+data/market_data/*
+data/risk_outputs/*
+monitoring/outputs/*
+logs/
+*.exe

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload - SR 11-7 Phase 5</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📤 Data Upload + Audit Trail</h1>
+        <form id="uploadForm">
+            <input type="file" name="file" required accept=".csv">
+            <br><br>
+            <button type="submit" class="btn">Upload → Audit Log</button>
+        </form>
+        <p id="status"></p>
+        <br>
+        <a href="index.html" class="btn">← Dashboard</a>
+    </div>
+    <script>
+        document.getElementById('uploadForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const statusEl = document.getElementById('status');
+            
+            statusEl.textContent = 'Uploading...';
+            try {
+                const res = await fetch('/api/upload', { method: 'POST', body: formData });
+                const data = await res.json();
+                if (res.ok) {
+                    statusEl.innerHTML = `<span style="color:green">✅ ${data.status} → audit_log.csv updated</span>`;
+                } else {
+                    statusEl.innerHTML = `<span style="color:red">❌ ${data.error}</span>`;
+                }
+            } catch(e) {
+                statusEl.textContent = `Error: ${e.message}`;
+            }
+        };
+    </script>
+</body>
+</html>

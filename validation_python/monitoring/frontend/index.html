@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR 11-7 Governance Dashboard</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏦 SR 11-7 Phase 5 Dashboard</h1>
+        
+        <div class="card">
+            <h2>📋 Model Inventory (Phase 1)</h2>
+            <table id="models">
+                <thead><tr><th>ID</th><th>Name</th><th>Version</th><th>Status</th><th>Owner</th></tr></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>✅ Approvals</h2>
+            <table id="approvals">
+                <thead><tr><th>Model</th><th>Version</th><th>Approved By</th><th>Date</th><th>Decision</th></tr></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>📊 Executive Report (Phase 2+4)</h2>
+            <pre id="report">Loading...</pre>
+            <a href="upload.html" class="btn">📤 Upload & Audit</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
