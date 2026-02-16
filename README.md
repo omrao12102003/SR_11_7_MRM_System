@@ -3,7 +3,7 @@ SR 11-7 Model Risk Management System
 End-to-End Quantitative Risk, Validation, Monitoring \& Governance Platform
 
 --
-📌 Overview
+Overview
 
 
 
@@ -27,7 +27,7 @@ Unlike typical academic projects that stop at model computation, this system emp
 
 
 
-🎯 Key Objectives
+Key Objectives
 
 
 
