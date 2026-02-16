@@ -487,7 +487,7 @@ Real-time market data feeds
 
 
 
-⚠️ Disclaimer
+ Disclaimer
 
 
 
