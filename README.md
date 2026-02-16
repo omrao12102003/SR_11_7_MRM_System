@@ -63,7 +63,7 @@ In real quantitative finance, building the model is only a small part. Most of t
 
 
 
-🧠 Quantitative Concepts Explained (Beginner Friendly)
+ Quantitative Concepts Explained (Beginner Friendly)
 
 | Concept                 | Meaning                                                    | Where Implemented |
 
@@ -113,7 +113,7 @@ Pillar 3 (Ongoing Monitoring \& Governance) → Monitoring + Dashboard + Audit
 
 
 
-🔢 Phase-by-Phase Breakdown
+Phase-by-Phase Breakdown
 
 
 
