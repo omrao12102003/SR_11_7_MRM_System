@@ -1,7 +1,8 @@
-🏦 SR 11-7 Model Risk Management System
+SR 11-7 Model Risk Management System
 
 End-to-End Quantitative Risk, Validation, Monitoring \& Governance Platform
 
+--
 📌 Overview
 
 
@@ -334,9 +335,9 @@ SR11\_7\_MRM\_System/
 
 
 
-⚙️ How to Run (Local)
+ How to Run (Local)
 
-1️⃣ Compile and Run Risk Engine
+1) Compile and Run Risk Engine
 
 g++ -std=c++17 risk\_engine\_cpp/src/\*.cpp -o risk\_engine
 
@@ -344,19 +345,19 @@ g++ -std=c++17 risk\_engine\_cpp/src/\*.cpp -o risk\_engine
 
 
 
-2️⃣ Run Independent Validation
+2️) Run Independent Validation
 
 python3 validation\_python/validation\_report.py
 
 
 
-3️⃣ Run Monitoring
+3️) Run Monitoring
 
 python3 monitoring/monitoring\_report.py
 
 
 
-4️⃣ Launch Governance Dashboard
+4️) Launch Governance Dashboard
 
 cd backend
 
@@ -378,7 +379,7 @@ http://127.0.0.1:5000
 
 
 
-📊 Example End-to-End Results
+Example End-to-End Results
 
 Phase 2:
 
@@ -416,7 +417,7 @@ Phase 5:
 
 
 
-🎓 Academic \& MSc Quant Relevance
+Academic \& MSc Quant Relevance
 
 
 
@@ -454,7 +455,7 @@ Clean multi-language architecture (C++ / Python)
 
 
 
-🚀 Potential Extensions
+Potential Extensions
 
 
 
@@ -500,7 +501,7 @@ It is intended for educational and research purposes only and is not a certified
 
 
 
-🏁 Final Note
+Final Note
 
 
 
